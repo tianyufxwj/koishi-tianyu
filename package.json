@@ -1,0 +1,33 @@
+{
+  "name": "koishi-plugin-xxck-1",
+  "description": "抽卡系统|完整指令说明见readme",
+  "version": "0.3.14",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "luxon": "^3.7.2",
+    "random": "^5.4.1",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.1",
+    "@types/seedrandom": "^3.0.8",
+    "@types/node": "^20.12.10",
+    "typescript": "^6.0.2"
+  }
+}
